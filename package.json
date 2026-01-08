@@ -1,0 +1,24 @@
+{
+  "name": "streamdeck-nowplaying",
+  "version": "0.1.0",
+  "description": "Stream Deck plugin to display currently playing music with album art",
+  "main": "bin/plugin.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node src/plugin.js"
+  },
+  "keywords": [
+    "streamdeck",
+    "nowplaying",
+    "music",
+    "media"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@elgato/streamdeck": "^2.0.1",
+    "node-nowplaying": "^0.1.0",
+    "sharp": "^0.34.5"
+  }
+}

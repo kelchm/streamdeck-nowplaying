@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+  "Name": "Now Playing",
+  "Version": "1.0.0",
+  "Author": "Your Name",
+  "Actions": [
+    {
+      "Name": "Now Playing",
+      "UUID": "com.streamdeck.nowplaying.display",
+      "Icon": "assets/action",
+      "Tooltip": "Display currently playing song with album art",
+      "States": [
+        {
+          "Image": "assets/action"
+        }
+      ],
+      "Controllers": ["Keypad"]
+    }
+  ],
+  "Category": "Media",
+  "CategoryIcon": "assets/category",
+  "CodePath": "bin/plugin.js",
+  "Description": "Display currently playing song with album art",
+  "Icon": "assets/plugin",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "6.4"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    },
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    }
+  ],
+  "Nodejs": {
+    "Version": "20",
+    "Debug": "enabled"
+  },
+  "UUID": "com.streamdeck.nowplaying"
+}
