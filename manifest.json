@@ -15,6 +15,22 @@
         }
       ],
       "Controllers": ["Keypad"]
+    },
+    {
+      "Name": "Now Playing - LCD",
+      "UUID": "com.streamdeck.nowplaying.lcd",
+      "Icon": "assets/action",
+      "Tooltip": "Display currently playing song on LCD screen. Use two instances: one for Left (album art), one for Right (track info)",
+      "Controllers": ["Encoder"],
+      "Encoder": {
+        "layout": "layouts/nowplaying.json"
+      },
+      "PropertyInspectorPath": "inspector/lcd-inspector.html",
+      "States": [
+        {
+          "Image": "assets/action"
+        }
+      ]
     }
   ],
   "Category": "Media",
